@@ -1,10 +1,10 @@
 {
-  "name": "service-worker-mock",
-  "version": "1.10.1",
+  "name": "@hispterbrown/cloudflare-worker-mock",
+  "version": "1.0.0",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pinterest/service-workers.git"
+    "url": "https://github.com/hipsterbrown/service-workers.git"
   },
   "files": [
     "index.js",
@@ -13,14 +13,16 @@
     "models"
   ],
   "keywords": [
+    "cloudflare",
     "service-workers",
     "service",
     "workers",
     "testing",
     "mock"
   ],
-  "homepage": "https://github.com/pinterest/service-workers/tree/master/packages/service-worker-mock",
-  "author": "zackargyle",
+  "homepage": "https://github.com/hipsterbrown/service-workers/tree/master/packages/service-worker-mock",
+  "author": "hipsterbrown",
+  "forkedFrom": "https://github.com/pinterest/service-workers",
   "license": "MIT",
   "dependencies": {
     "dom-urls": "^1.1.0"
