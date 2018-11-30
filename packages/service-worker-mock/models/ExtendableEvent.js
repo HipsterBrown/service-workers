@@ -8,6 +8,8 @@ class ExtendableEvent {
   waitUntil(promise) {
     this.promise = promise;
   }
+
+  passThroughOnException() {}
 }
 
 module.exports = ExtendableEvent;
